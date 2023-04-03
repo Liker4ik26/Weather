@@ -42,14 +42,14 @@
 
 * You need Android Studio (at least Arctic Fox) with Kotlin plugin (at least 1.6.10)S
 * Add `apiKey=<YourKey>` in `local.properties` file, for
-  example `apiKey="96766ee982e642d7957abb90a7559838"`
+  example `apiKey="72288ebc5b893cc92a76c701c6b700b6"`
 * Run -> Run 'app'
 
 ## Topics
 
 * DI
 * Navigation
-* Architecture
+* Clean Architecture
 * Localization
 * Theming
 * Single-module
