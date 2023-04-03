@@ -22,19 +22,19 @@
 
 ## Share a forecast in Russian
 
-|                       Share sheet                        |                     Send message                      |
+|                       Share sheet                        |                     The sent message                  |
 |:--------------------------------------------------------:|:-----------------------------------------------------:|
 | <img src="assets/russian_share_screen.jpg" height="400"> | <img src="assets/russian_text_send.jpg" height="100"> |
 
 ## Share a forecast in English
 
-|                       Share sheet                        |                     Send message                      |
+|                       Share sheet                        |                     The sent message                  |
 |:--------------------------------------------------------:|:-----------------------------------------------------:|
 | <img src="assets/english_share_screen.jpg" height="400"> | <img src="assets/english_text_send.jpg" height="100"> |
 
 ## Error message
 
-|                   Error message                   |
+|           Toast with an error message             |
 |:-------------------------------------------------:|
 | <img src="assets/error_message.jpg" height="400"> |
 
