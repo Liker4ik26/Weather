@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="share">Поделиться</string>
+    <string name="weather_image">Изображение погоды</string>
+    <string name="error_image">Ошибка загрузки изображения</string>
+    <string name="right_now">Прямо сейчас</string>
+    <string name="enter_city">Введите город</string>
+    <string name="feels_like">Ощущается как %1$s</string>
+    <string name="empty">- -</string>
+    <string name="temp">Темп.</string>
+    <string name="min">Мин</string>
+    <string name="current_weather"> Погода прямо сейчас </string>
+    <string name="max">Макс</string>
+    <string name="pressure">Давление</string>
+    <string name="wind">Ветер</string>
+    <string name="humidity">Влажность</string>
+    <string name="clouds">Облачность</string>
+    <string name="incorrect_text">Некорректный ввод города </string>
+    <string name="in_city">В городе</string>
+    <string name="temperature">температура</string>
+</resources>

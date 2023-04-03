@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="share">share weather</string>
+    <string name="weather_image">Weather image</string>
+    <string name="error_image">Error image</string>
+    <string name="right_now">Right now</string>
+    <string name="enter_city">Enter city</string>
+    <string name="feels_like">Feels like %1$s</string>
+    <string name="empty">- -</string>
+    <string name="temp">Temp</string>
+    <string name="min">Min</string>
+    <string name="max">Max</string>
+    <string name="pressure">Pressure</string>
+    <string name="wind">Wind</string>
+    <string name="humidity">Humidity</string>
+    <string name="clouds">Clouds</string>
+    <string name="current_weather"> Current weather </string>
+    <string name="incorrect_text">Incorrect text input</string>
+    <string name="in_city">In city</string>
+    <string name="temperature">temperature</string>
+</resources>
