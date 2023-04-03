@@ -30,7 +30,7 @@
 
 |                       Share sheet                        |                     The sent message                  |
 |:--------------------------------------------------------:|:-----------------------------------------------------:|
-| <img src="assets/english_share_screen.jpg" height="400"> | <img src="assets/english_text_send.jpg" height="100"> |
+| <img src="assets/english_share_screen.jpg" height="400"> | <img src="assets/english_text_send.jpg" height="70"> |
 
 ## Error message
 
