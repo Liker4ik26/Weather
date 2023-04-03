@@ -12,7 +12,7 @@
 
 |                   Light Theme                    |                   Dark theme                    |
 |:------------------------------------------------:|:-----------------------------------------------:|
-| <img src="assets/light_screen.jpg" height="400"> | <img src="assets/dark_screen.jpg" height="400"> |
+| <img src="assets/light_screen.jpg" height="400"> | <img src="assets/dark_theme.jpg" height="400"> |
 
 ## Localization
 
@@ -24,13 +24,13 @@
 
 |                       Share sheet                        |                     Send message                      |
 |:--------------------------------------------------------:|:-----------------------------------------------------:|
-| <img src="assets/russian_share_screen.jpg" height="400"> | <img src="assets/russian_text_send.jpg" height="400"> |
+| <img src="assets/russian_share_screen.jpg" height="400"> | <img src="assets/russian_text_send.jpg" height="100"> |
 
 ## Share a forecast in English
 
 |                       Share sheet                        |                     Send message                      |
 |:--------------------------------------------------------:|:-----------------------------------------------------:|
-| <img src="assets/english_share_screen.jpg" height="400"> | <img src="assets/english_text_send.jpg" height="400"> |
+| <img src="assets/english_share_screen.jpg" height="400"> | <img src="assets/english_text_send.jpg" height="100"> |
 
 ## Error message
 
