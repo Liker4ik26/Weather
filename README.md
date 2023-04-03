@@ -24,13 +24,13 @@
 
 |                       Share screen                       |                     Send message                      |
 |:--------------------------------------------------------:|:-----------------------------------------------------:|
-| <img src="assets/russian_share_screen.jpg" height="400"> | <img src="assets/russian_text_send.jpg" height="200"> |
+| <img src="assets/russian_share_screen.jpg" height="400"> | <img src="assets/russian_text_send.jpg" height="100"> |
 
 ## Share a forecast in English
 
 |                       Share screen                       |                     Send message                      |
 |:--------------------------------------------------------:|:-----------------------------------------------------:|
-| <img src="assets/english_share_screen.jpg" height="400"> | <img src="assets/english_text_send.jpg" height="200"> |
+| <img src="assets/english_share_screen.jpg" height="400"> | <img src="assets/english_text_send.jpg" height="100"> |
 
 ## Error message
 
