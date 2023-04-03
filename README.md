@@ -14,21 +14,21 @@
 |:------------------------------------------------:|:-----------------------------------------------:|
 | <img src="assets/light_screen.jpg" height="400"> | <img src="assets/dark_screen.jpg" height="400"> |
 
-## Localization Russian / English
+## Localization
 
-|                    Russian Language                     |                    English Language                     |
+|                         Russian                         |                         English                         |
 |:-------------------------------------------------------:|:-------------------------------------------------------:|
 | <img src="assets/russian_home_screen.jpg" height="400"> | <img src="assets/english_home_screen.jpg" height="400"> |
 
 ## Share a forecast in Russian
 
-|                       Share screen                       |                     Send message                      |
+|                       Share sheet                        |                     Send message                      |
 |:--------------------------------------------------------:|:-----------------------------------------------------:|
 | <img src="assets/russian_share_screen.jpg" height="400"> | <img src="assets/russian_text_send.jpg" height="400"> |
 
 ## Share a forecast in English
 
-|                       Share screen                       |                     Send message                      |
+|                       Share sheet                        |                     Send message                      |
 |:--------------------------------------------------------:|:-----------------------------------------------------:|
 | <img src="assets/english_share_screen.jpg" height="400"> | <img src="assets/english_text_send.jpg" height="400"> |
 
