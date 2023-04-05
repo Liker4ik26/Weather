@@ -1,4 +1,4 @@
-package com.compose.weather.screens.home.presentation
+package com.compose.weather.screen.home.presentation
 
 import android.content.Intent
 import android.widget.Toast
@@ -16,8 +16,8 @@ import androidx.core.content.ContextCompat.startActivity
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.compose.weather.R
-import com.compose.weather.screens.home.presentation.components.SearchField
-import com.compose.weather.screens.home.presentation.components.WeatherBody
+import com.compose.weather.screen.home.presentation.components.SearchField
+import com.compose.weather.screen.home.presentation.components.WeatherBody
 import com.ramcosta.composedestinations.annotation.Destination
 import java.util.Locale
 import kotlin.math.roundToInt
@@ -38,26 +38,34 @@ private fun HomeScreen(viewModel: HomeViewModel) {
         viewModel.effect.collect() { effect ->
             when (effect) {
                 is HomeUiEffect.ShareWeather -> {
-                    startActivity(
-                        context,
-                        Intent.createChooser(
-                            Intent().apply {
-                                action = Intent.ACTION_SEND
-                                putExtra(
-                                    Intent.EXTRA_TEXT,
-                                    "${context.getString(R.string.in_city)} ${
-                                        state.cityName.replaceFirstChar { char ->
-                                            if (char.isLowerCase())
-                                                char.titlecase(Locale.ROOT) else char.toString()
-                                        }
-                                    } ${context.getString(R.string.temperature)} ${state.weather?.main?.temp?.roundToInt()} °C"
-                                )
-                                type = "text/plan"
-                            },
-                            context.getString(R.string.current_weather)
-                        ),
-                        null
-                    )
+                    if (!state.isError && state.weather != null ) {
+                        startActivity(
+                            context,
+                            Intent.createChooser(
+                                Intent().apply {
+                                    action = Intent.ACTION_SEND
+                                    putExtra(
+                                        Intent.EXTRA_TEXT,
+                                        "${context.getString(R.string.in_city)} ${
+                                            state.weather?.name?.replaceFirstChar { char ->
+                                                if (char.isLowerCase())
+                                                    char.titlecase(Locale.ROOT) else char.toString()
+                                            }
+                                        } ${context.getString(R.string.temperature)} ${state.weather?.main?.temp?.roundToInt()} °C"
+                                    )
+                                    type = "text/plan"
+                                },
+                                context.getString(R.string.current_weather)
+                            ),
+                            null
+                        )
+                    } else {
+                        Toast.makeText(
+                            context,
+                            context.getString(R.string.failed_to_share),
+                            Toast.LENGTH_SHORT
+                        ).show()
+                    }
                 }
             }
         }

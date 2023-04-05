@@ -18,4 +18,5 @@
     <string name="incorrect_text">Incorrect text input</string>
     <string name="in_city">In city</string>
     <string name="temperature">temperature</string>
+    <string name="failed_to_share">Failed to share.</string>
 </resources>

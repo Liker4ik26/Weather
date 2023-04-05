@@ -1,6 +1,6 @@
 package com.compose.weather.navigation
 
-import com.compose.weather.screens.home.presentation.destinations.HomeScreenDestination
+import com.compose.weather.screen.home.presentation.destinations.HomeScreenDestination
 import com.ramcosta.composedestinations.dynamic.routedIn
 import com.ramcosta.composedestinations.spec.DestinationSpec
 import com.ramcosta.composedestinations.spec.NavGraphSpec

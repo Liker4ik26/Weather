@@ -1,8 +1,8 @@
-package com.compose.weather.screens.home.presentation.models.mappers
+package com.compose.weather.screen.home.presentation.models.mappers
 
-import com.compose.weather.screens.home.presentation.models.CurrentWeatherItemUi
-import com.compose.weather.screens.home.presentation.models.MainWeatherItemUi
-import com.compose.weather.screens.home.presentation.models.WeatherItemUi
+import com.compose.weather.screen.home.presentation.models.CurrentWeatherItemUi
+import com.compose.weather.screen.home.presentation.models.MainWeatherItemUi
+import com.compose.weather.screen.home.presentation.models.WeatherItemUi
 import com.compose.weather.weather_api.weather.domain.CurrentWeatherDomain
 import com.compose.weather.weather_api.weather.domain.MainWeatherDomain
 import com.compose.weather.weather_api.weather.domain.WeatherDomain

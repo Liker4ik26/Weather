@@ -1,4 +1,4 @@
-package com.compose.weather.screens.home.presentation.components
+package com.compose.weather.screen.home.presentation.components
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row

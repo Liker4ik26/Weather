@@ -1,6 +1,6 @@
-package com.compose.weather.screens.home.presentation
+package com.compose.weather.screen.home.presentation
 
-import com.compose.weather.screens.home.presentation.models.WeatherItemUi
+import com.compose.weather.screen.home.presentation.models.WeatherItemUi
 import javax.annotation.concurrent.Immutable
 
 @Immutable

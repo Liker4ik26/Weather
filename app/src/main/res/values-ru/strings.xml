@@ -19,4 +19,5 @@
     <string name="incorrect_text">Некорректный ввод города </string>
     <string name="in_city">В городе</string>
     <string name="temperature">температура</string>
+    <string name="failed_to_share">Не удалось поделиться.</string>
 </resources>

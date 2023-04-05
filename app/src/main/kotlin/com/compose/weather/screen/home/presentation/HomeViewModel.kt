@@ -1,10 +1,10 @@
-package com.compose.weather.screens.home.presentation
+package com.compose.weather.screen.home.presentation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.compose.weather.core.entity.map
 import com.compose.weather.core.entity.unpack
-import com.compose.weather.screens.home.presentation.models.mappers.asWeatherItemUi
+import com.compose.weather.screen.home.presentation.models.mappers.asWeatherItemUi
 import com.compose.weather.weather_api.weather.data.WeatherRepository
 import com.compose.weather.weather_api.weather.domain.WeatherDomain
 import dagger.hilt.android.lifecycle.HiltViewModel

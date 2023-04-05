@@ -1,4 +1,4 @@
-package com.compose.weather.screens.home.presentation.components
+package com.compose.weather.screen.home.presentation.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -19,7 +19,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.compose.weather.R
-import com.compose.weather.screens.home.presentation.models.WeatherItemUi
+import com.compose.weather.screen.home.presentation.models.WeatherItemUi
 import java.util.Locale
 import kotlin.math.roundToInt
 

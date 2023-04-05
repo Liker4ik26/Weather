@@ -1,4 +1,4 @@
-package com.compose.weather.screens.home.presentation.components
+package com.compose.weather.screen.home.presentation.components
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -12,20 +12,20 @@ import androidx.compose.ui.unit.dp
 import com.compose.weather.R
 
 @Composable
-fun CloudsCard(clouds: String) {
+fun HumidityCard(humidity: String) {
     Column {
-        Row{
+        Row {
             WeatherParameterIcon(
-                icon = R.drawable.clouds,
-                contentDescription = R.string.clouds,
+                icon = R.drawable.humidity,
+                contentDescription = R.string.humidity,
                 sizeIcon = 30.dp
             )
             Spacer(modifier = Modifier.width(15.dp))
-            WeatherParameterText(text = clouds)
+            WeatherParameterText(text = humidity)
         }
         Spacer(modifier = Modifier.height(10.dp))
         Row {
-            WeatherParameterText(text = stringResource(id = R.string.clouds))
+            WeatherParameterText(text = stringResource(id = R.string.humidity))
         }
     }
 }

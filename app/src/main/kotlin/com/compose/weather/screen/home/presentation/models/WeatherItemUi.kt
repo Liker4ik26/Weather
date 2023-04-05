@@ -1,4 +1,4 @@
-package com.compose.weather.screens.home.presentation.models
+package com.compose.weather.screen.home.presentation.models
 
 class WeatherItemUi(
     val weather: List<CurrentWeatherItemUi>,
