@@ -22,19 +22,19 @@
 
 ## Share a forecast in Russian
 
-|                       Share sheet                        |                     Send message                      |
+|                       Share sheet                        |                     The sent message                  |
 |:--------------------------------------------------------:|:-----------------------------------------------------:|
 | <img src="assets/russian_share_screen.jpg" height="400"> | <img src="assets/russian_text_send.jpg" height="100"> |
 
 ## Share a forecast in English
 
-|                       Share sheet                        |                     Send message                      |
+|                       Share sheet                        |                     The sent message                  |
 |:--------------------------------------------------------:|:-----------------------------------------------------:|
-| <img src="assets/english_share_screen.jpg" height="400"> | <img src="assets/english_text_send.jpg" height="100"> |
+| <img src="assets/english_share_screen.jpg" height="400"> | <img src="assets/english_text_send.jpg" height="70"> |
 
 ## Error message
 
-|                   Error message                   |
+|           Toast with an error message             |
 |:-------------------------------------------------:|
 | <img src="assets/error_message.jpg" height="400"> |
 
@@ -42,14 +42,14 @@
 
 * You need Android Studio (at least Arctic Fox) with Kotlin plugin (at least 1.6.10)S
 * Add `apiKey=<YourKey>` in `local.properties` file, for
-  example `apiKey="96766ee982e642d7957abb90a7559838"`
+  example `apiKey="72288ebc5b893cc92a76c701c6b700b6"`
 * Run -> Run 'app'
 
 ## Topics
 
 * DI
 * Navigation
-* Architecture
+* Clean Architecture
 * Localization
 * Theming
 * Single-module
